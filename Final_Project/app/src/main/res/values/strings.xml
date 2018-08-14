@@ -42,4 +42,7 @@
     <string name="groups">Groups</string>
     <string name="previous_wars">Previous Wars</string>
     <string name="new_war_button">New War</string>
+    <string name="find_a_friend">Find a Friend</string>
+    <string name="find_friend_hint">Enter friend\'s email...</string>
+    <string name="user_not_found">User not found</string>
 </resources>

@@ -18,6 +18,8 @@ import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import org.w3c.dom.Text;
 
@@ -106,7 +108,10 @@ public class HomeActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.add_a_friend) {
-            // Handle the camera action
+            // Go to AddFriendActivity
+            Intent addFriendActivity = new Intent(HomeActivity.this, AddFriendActivity.class);
+            startActivity(addFriendActivity);
+            finish();
         } else if (id == R.id.groups) {
 
         } else if (id == R.id.previous_wars) {
