@@ -1,14 +1,7 @@
 <resources>
     <string name="app_name">Chore War</string>
-
-    <!-- Strings related to login -->
-    <string name="email_login_button">Login</string>
-    <string name="google_login_button">Google Login</string>
-    <string name="facebook_login_button">Facebook Login</string>
     <string name="loading">Loading...</string>
     <string name="auth_failed">Authentication failed</string>
-    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
-    <string name="firebase_status_fmt">Firebase User: %s</string>
     <string name="signed_out">Signed Out</string>
     <string name="desc_firebase_lockup">Firebase logo and name</string>
     <string name="emailpassword_title_text">Email and Password</string>
@@ -18,25 +11,11 @@
     <string name="create_account">Create Account</string>
     <string name="sign_out">Sign Out</string>
     <string name="verify_email">Verify Email</string>
-    <string name="title_activity_login2">Sign in</string>
 
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_desc">Welcome</string>
-    <string name="action_settings">Settings</string>
     <string name="logout_button">Logout</string>
     <string name="add_a_friend">Add a Friend</string>
     <string name="groups">Groups</string>
@@ -45,4 +24,14 @@
     <string name="find_a_friend">Find a Friend</string>
     <string name="find_friend_hint">Enter friend\'s email...</string>
     <string name="user_not_found">User not found</string>
+    <string name="select_string">Select an item</string>
+    <string name="select_warriors">Select Warriors</string>
+    <string name="select_chores">Select Chores</string>
+    <string name="start_a_new_war">Start a New War</string>
+    <string name="war_name">War Name...</string>
+    <string name="reward">Reward...</string>
+    <string name="start_war">Start War</string>
+    <string name="consequence">Consequence...</string>
+    <string name="no_chores">You don\'t have any chores!</string>
+    <string name="no_feature">This feature has not yet been implemented</string>
 </resources>

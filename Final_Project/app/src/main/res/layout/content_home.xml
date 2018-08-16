@@ -30,4 +30,18 @@
         android:theme="@style/ThemeOverlay.MyDarkButton"
         android:textSize="24sp" />
 
+    <TextView
+        android:id="@+id/current_chores_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Current Chores"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/current_chores"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp" />
+
 </LinearLayout>

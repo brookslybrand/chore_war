@@ -84,7 +84,7 @@ public class AddFriendActivity extends AppCompatActivity {
         if(friends.containsKey("friends")) {
             friends = (Map) friends.get("friends");
             if(friends.values().contains(friendEmail)) {
-                resultToast("You are already friends with" + friendEmail);
+                resultToast("You are already friends with " + friendEmail);
                 return;
             }
         }
@@ -113,10 +113,12 @@ public class AddFriendActivity extends AppCompatActivity {
 
                     // the friend was added successfully, so finish the activity
                     finish();
-                } else {
-                    resultToast(getString(R.string.user_not_found));
+                    return;
                 }
             }
+
+            // if no user was found
+            resultToast(getString(R.string.user_not_found));
         } else {
             resultToast("Please type in an email");
         }
